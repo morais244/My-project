@@ -59574,7 +59574,7 @@ Transform:
   m_GameObject: {fileID: 519420028}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: -1.2852727}
+  m_LocalPosition: {x: 0, y: 0, z: -5.5589542}
   m_LocalScale: {x: 0.10371041, y: 0.10869206, z: 0.12852727}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -59627,6 +59627,7 @@ GameObject:
   - component: {fileID: 574326708}
   - component: {fileID: 574326707}
   - component: {fileID: 574326706}
+  - component: {fileID: 574326709}
   m_Layer: 0
   m_Name: player
   m_TagString: Player
@@ -59695,8 +59696,8 @@ Transform:
   m_GameObject: {fileID: 574326703}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -1.8, y: -0.27, z: 0}
-  m_LocalScale: {x: 9.642234, y: 9.200304, z: 7.78045}
+  m_LocalPosition: {x: -0.24, y: -0.48, z: 0}
+  m_LocalScale: {x: 1.4280043, y: 1.1116912, z: 1.7988995}
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 519420032}
@@ -59734,8 +59735,8 @@ CapsuleCollider2D:
   m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: 0, y: 0}
-  m_Size: {x: 0.11, y: 0.14}
+  m_Offset: {x: -0.0023762784, y: 0.010552814}
+  m_Size: {x: 0.6328482, y: 0.89450717}
   m_Direction: 0
 --- !u!50 &574326707
 Rigidbody2D:
@@ -59776,9 +59777,30 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2c62dd8dbb5dcfb4b90f628a85e38633, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  velocidade: 10
-  focaPulo: 10
+  velocidade: 9
+  focaPulo: 9
   noChao: 0
+--- !u!95 &574326709
+Animator:
+  serializedVersion: 5
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 574326703}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: d8aedc9addb9f804fa34437b5aab9ba9, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_StabilizeFeet: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorStateOnDisable: 0
+  m_WriteDefaultValuesOnDisable: 0
 --- !u!1 &661933401
 GameObject:
   m_ObjectHideFlags: 0
@@ -73168,7 +73190,7 @@ Transform:
   m_GameObject: {fileID: 1902584714}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -1.8, y: -0.27, z: -10}
+  m_LocalPosition: {x: -0.24, y: -0.48, z: -10}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
